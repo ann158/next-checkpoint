@@ -1,0 +1,61 @@
+/* globals.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  /* styles/globals.css or styles/Home.module.css */
+
+form {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  form .form-label {
+    font-weight: bold;
+  }
+  
+  form .btn {
+    background-color: #007bff; /* Custom color */
+    border: none;
+    padding: 12px 20px;
+  }
+  
+  form .btn:hover {
+    background-color: #0056b3;
+    transition: 0.3s ease;
+  }
+  
+  form input,
+  form textarea {
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #007bff;
+  }
+    form .form-control {
+        margin-bottom: 15px;
+    }  
+  
